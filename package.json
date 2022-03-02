@@ -1,0 +1,16 @@
+{
+  "name": "shorty",
+  "description": "simple url shortener and api",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "0xc0Der",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^7.4.6",
+    "express": "^4.17.2",
+    "redis": "^4.0.2"
+  }
+}
