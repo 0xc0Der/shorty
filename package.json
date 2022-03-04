@@ -4,6 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "setup": "node utils/setupDB.js",
     "start": "node index.js"
   },
   "author": "0xc0Der",
